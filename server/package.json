@@ -1,0 +1,25 @@
+{
+  "name": "socialmedia-server",
+  "version": "2.0.0",
+  "description": "Social Media API – AWS Cognito + S3 + RDS + Lambda",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":  "node index.js",
+    "dev":    "nodemon index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.600.0",
+    "@aws-sdk/client-s3":                         "^3.600.0",
+    "@aws-sdk/s3-request-presigner":               "^3.600.0",
+    "body-parser":  "^1.20.2",
+    "cors":         "^2.8.5",
+    "dotenv":       "^16.4.5",
+    "express":      "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa":     "^3.1.0",
+    "mysql2":       "^3.14.0",
+    "nodemon":      "^3.1.4",
+    "uuid":         "^10.0.0"
+  }
+}

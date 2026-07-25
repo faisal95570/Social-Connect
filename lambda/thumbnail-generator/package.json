@@ -1,0 +1,10 @@
+{
+  "name": "thumbnail-generator",
+  "version": "1.0.0",
+  "description": "Lambda: auto-generate 400x400 thumbnail from S3 upload",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "sharp": "^0.33.4"
+  }
+}
